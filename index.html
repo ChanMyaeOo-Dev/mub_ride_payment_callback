@@ -10,9 +10,9 @@
     callback :
 
     <script>
-        fetch('http://example.com/movies.json')
-  .then((response) => response.json())
-  .then((data) => console.log(data));
+        fetch('https://fakestoreapi.com/products/1')
+            .then(res=>res.json())
+            .then(json=>console.log(json))
     </script>
 </body>
 </html>
